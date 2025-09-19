@@ -4,16 +4,22 @@
 
 | ID   |                                 Requisito                                 | Prioridade | Requisitos Relacionados |
 | :--: | :-----------------------------------------------------------------------: | :--------: | :---------: |
-| RF01 |              O usuário deve captar o objetivo do produto lendo um texto descritivo sobre a solução.                 |  Alta      |     -       |
-| RF02 |              O usuário deve poder acessar a ferramenta ao clicar em um botão que irá o redirecionar para o app.                   |  Alta      |     -       |
-| RF03 |              O usuário deve poder conhecer sobre a ferramenta.            |  Alta      |     -       |
-| RF04 |              O usuário deve poder compartilhar o site.          |  Alta      |     -       |
-| RF05 |              O usuário deve poder entrar em contato com a empresa         |  Média     |     -       |
-| RF06 | A página deve ter um formulário com campos com email, celular e mensagem  |  Média     |     RF05    |
-| RF07 |      A página deve retornar uma mensagem de confirmação do envio          |  Alta      |     RF06    |
-| RF08 |              A página deve conter imagens, gráficos ou vídeos             |  Média     |     RF03    |
-| RF09 |              A página deve conter feedbacks de usuários                   |  Média     |     RF03    |
-| RF10|              A página deve ter um botão de chamada para ação               |  Alta      |     RF05    |
+| RF01 |             O software deve permitir que o cliente faça o seu próprio cadastro no aplicativo.            |  Alta      |     -       |
+| RF02 |             O software deve permitir que o cliente faça seu login no aplicativo.             |  Alta      |     -       |
+| RF03 |             O software deve permitir que o cliente selecione o serviço desejado.          |  Alta      |     -       |
+| RF04 |             O software deve permitir que o cliente selecione o profissional.          |  Alta      |     -       |
+| RF05 |             O software deve permitir que o cliente marque um horário para o serviço desejado.       |  Média     |           |
+| RF06 |O software deve permitir que o cliente pague por pix o serviço, dentro do aplicativo.  |  Média     |     RF05    |
+| RF07 |     O software deve fornecer um QrCode e uma chave aleatória para o cliente efetuar o pagamento.          |  Alta      |     RF06    |
+| RF08 |             O software deve permitir que o cliente selecione se ele gostaria de um lembrete de seu horário marcado na barbearia.            |  Média     |     RF03    |
+| RF09 |              O software deve permitir que o cliente selecione a antecedência deste lembrete (dias, horas, minutos).                  |  Média     |     RF03    |
+| RF10|             O software deve enviar uma mensagem por Whatsapp do lembrete do agendamento do cliente conforme ele tenha selecionado          |  Alta      |     RF05    |
+| RF11|           O software deve permitir que o cliente edite as informações de seu cadastro.       |  Alta      |     RF05    |
+| RF12|             O software deve permitir que o cliente consulte os seus agendamentos (ver serviço, dia, horário e barbeiro).          |  Alta      |     RF05    |
+| RF13|            O software deve permitir que o cliente saia (Log Out) do aplicativo.          |  Alta      |     RF05    |
+| RF14|             O software deve permitir que o cliente escolha o tema de sua preferência (claro/escuro).          |  Alta      |     RF05    |
+| RF15|            O software deve permitir que o cliente veja fotos dos serviços disponibilizados pela barbearia na Home em formato de carrossel.         |  Alta      |     RF05    |
+| RF16|             O software deve enviar uma mensagem por Whatsapp do lembrete do agendamento do cliente conforme ele tenha selecionado          |  Alta      |     RF05    |
 
 
 
@@ -25,3 +31,4 @@
 
 
 <a href="../README.md">VOLTAR INÍCIO</a>
+
