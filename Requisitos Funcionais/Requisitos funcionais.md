@@ -21,7 +21,7 @@
 | RF15 | O software deve permitir que o cliente veja fotos dos serviços disponibilizados pela barbearia na página Home em formato de carrossel. | Baixa | - |
 | RF16 | O software deve permitir que o cliente cancele ou remarque um horário previamente agendado. | Alta | RF05 |
 | RF17 | O software deve permitir que o cliente edite um horário previamente agendado apenas até 24 horas antes do horário reservado, bloqueando alterações após esse prazo. | Alta | RF16 |
-| RF18 | O software deve permitir que o barbeiro visualize os horários agendados com ele. | Alta | RF05 |
+| RF18 | O software deve enviar uma mensagem de lembrete via WhatsApp para os barbeiros os relembrando dos atendimentos do dia | Alta | RF05 |
 | RF19 | O software deve permitir que o gestor gerencie os horários de funcionamento (podendo bloquear horários indisponíveis). | Média | - |
 | RF20 | O software deve permitir que o gestor agende horários para clientes já cadastrados. | Alta | RF05 |
 | RF21 | O software deve permitir que o gestor agende horário para clientes não cadastrados (voltado para pessoas de mais idade). | Baixa | RF05 |
@@ -42,6 +42,7 @@
 
 
 <a href="../README.md">VOLTAR INÍCIO</a>
+
 
 
 
