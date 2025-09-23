@@ -28,7 +28,7 @@ O modelo atual limita a expansão do negócio e a percepção de modernidade e c
 Em resumo, o cenário atual gera ineficiência operacional, má experiência do cliente e falta de informações estratégicas para a gestão da barbearia.
 
 ### 1.3 Proposta de Solução
-Propõe-se o desenvolvimento e implementação de um sistema de gestão de barbearia (aplicativo móvel e plataforma web) com funcionalidades para clientes, barbeiros e gestor, atendendo aos requisitos funcionais e não funcionais levantados.
+Propõe-se o desenvolvimento e implementação de um sistema de gestão de barbearia (aplicativo móvel) com funcionalidades para clientes, barbeiros e gestor, atendendo aos requisitos funcionais e não funcionais levantados.
 
 #### 1.3.1 Objetivos da Solução
 - Automatizar o agendamento: permitir que o cliente escolha serviço, barbeiro, data e horário diretamente no aplicativo, reduzindo erros e trabalho manual.
@@ -36,7 +36,7 @@ Propõe-se o desenvolvimento e implementação de um sistema de gestão de barbe
 - Fornecer relatórios inteligentes: possibilitar que o gestor visualize indicadores financeiros e de frequência dos clientes.
 - Aprimorar a comunicação: lembretes automáticos via notificação push e WhatsApp, reduzindo faltas e aumentando a satisfação.
 - Garantir segurança e confiabilidade: dados criptografados, autenticação de usuários e disponibilidade mínima de 95%.
-- Melhorar a experiência do cliente: interface simples, intuitiva e compatível com Android, iOS e web.
+- Melhorar a experiência do cliente: interface simples, intuitiva e compatível com Android e iOS.
 
 #### 1.3.2 Benefícios Esperados
 - Clientes
@@ -54,10 +54,10 @@ Propõe-se o desenvolvimento e implementação de um sistema de gestão de barbe
 
 #### 1.3.3 Diferenciais da Solução
 - Sistema multiusuário (cliente, barbeiro, gestor).
-- Pagamento integrado via Pix com chave dinâmica ou QR Code.
+- Pagamento integrado via Pix com chave dinâmica.
 - Personalização de notificações (push, WhatsApp, lembretes).
 - Relatórios gerenciais detalhados.
-- Interface responsiva e amigável, acessível em mobile e web.
+- Interface responsiva e amigável, acessível em mobile.
 
 ## 2. Documentos 
 
@@ -71,7 +71,7 @@ Propõe-se o desenvolvimento e implementação de um sistema de gestão de barbe
 | `[RF04]` | O sistema deve permitir que o cliente selecione o profissional desejado.                                                                                      | Alta       | RF03                    |
 | `[RF05]` | O sistema deve permitir que o cliente agende um dia e horário para o serviço escolhido.                                                                       | Alta       | RF03, RF04              |
 | `[RF06]` | O sistema deve permitir que o cliente realize o pagamento do serviço via Pix diretamente no aplicativo.                                                       | Alta       | RF05                    |
-| `[RF07]` | O sistema deve permitir que o cliente copie uma chave Pix ou escaneie um QrCode para efetuar o pagamento fora do aplicativo, caso prefira.                    | Alta       | RF06                    |
+| `[RF07]` | O sistema deve permitir que o cliente copie uma chave Pix para efetuar o pagamento fora do aplicativo, caso prefira.                                          | Alta       | RF06                    |
 | `[RF08]` | O sistema deve permitir que o cliente opte por receber lembretes de seus agendamentos.                                                                        | Média      | RF05                    |
 | `[RF09]` | O sistema deve permitir que o cliente configure a antecedência dos lembretes (dias, horas, minutos).                                                          | Média      | RF08                    |
 | `[RF10]` | O sistema deve permitir que o cliente edite as informações de seu cadastro.                                                                                   | Alta       | RF01                    |
@@ -113,9 +113,9 @@ Propõe-se o desenvolvimento e implementação de um sistema de gestão de barbe
 | `[RNF06]` | O sistema deve suportar, no mínimo, 10 usuários simultâneos sem perda perceptível de desempenho.                                                   | Média      |
 | `[RNF07]` | O sistema deve estar disponível (uptime) em pelo menos 95% do tempo mensal (máximo de 36 horas de indisponibilidade por mês).                      | Alta       |
 | `[RNF08]` | Em caso de falha, o sistema deve garantir a recuperação dos dados do usuário a partir de backups.                                                  | Alta       |
-| `[RNF09]` | O sistema deve ser compatível com Android, iOS e navegadores web modernos.                                                                         | Alta       |
+| `[RNF09]` | O sistema deve ser compatível com Android e iOS.                                                                                                   | Alta       |
 | `[RNF10]` | Todos os relatórios gerados devem seguir o padrão de cabeçalho e rodapé definido pela empresa.                                                     | Alta       |
-| `[RNF11]` | O sistema deve ser desenvolvido utilizando **React Native** para dispositivos móveis e **JavaScript/Node.js** para o backend e serviços web.       | Média      |
+| `[RNF11]` | O sistema deve ser desenvolvido utilizando **React Native** para dispositivos móveis.                                                              | Média      |
 | `[RNF12]` | O sistema deve integrar-se de forma segura com o sistema bancário para processamento de pagamentos.                                                | Alta       |
 | `[RNF13]` | O sistema não deve expor informações pessoais de clientes a operadores não autorizados.                                                            | Alta       |
 | `[RNF14]` | O acesso a dados sensíveis deve ser protegido por autenticação e autorização robustas.                                                             | Alta       |
