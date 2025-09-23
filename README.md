@@ -115,7 +115,7 @@ Propõe-se o desenvolvimento e implementação de um sistema de gestão de barbe
 | `[RNF08]` | Em caso de falha, o sistema deve garantir a recuperação dos dados do usuário a partir de backups.                                                  | Alta       |
 | `[RNF09]` | O sistema deve ser compatível com Android e iOS.                                                                                                   | Alta       |
 | `[RNF10]` | Todos os relatórios gerados devem seguir o padrão de cabeçalho e rodapé definido pela empresa.                                                     | Alta       |
-| `[RNF11]` | O sistema deve ser desenvolvido utilizando **React Native** para dispositivos móveis.                                                              | Média      |
+| `[RNF11]` | O sistema deve ser desenvolvido utilizando **React Native** para front-end e **JavaScript/Node.js** para back-end.                                 | Média      |
 | `[RNF12]` | O sistema deve integrar-se de forma segura com o sistema bancário para processamento de pagamentos.                                                | Alta       |
 | `[RNF13]` | O sistema não deve expor informações pessoais de clientes a operadores não autorizados.                                                            | Alta       |
 | `[RNF14]` | O acesso a dados sensíveis deve ser protegido por autenticação e autorização robustas.                                                             | Alta       |
