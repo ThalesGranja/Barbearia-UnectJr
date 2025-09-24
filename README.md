@@ -122,4 +122,6 @@ Propõe-se o desenvolvimento e implementação de um sistema de gestão de barbe
 | `[RNF15]` | Os dados sensíveis dos clientes devem ser armazenados e transmitidos utilizando criptografia forte.                                                | Alta       |
 
 
-2.3 Protótipos
+### 2.3 Protótipos
+
+Apara acessar os protótipos feitos basta clicar [Aqui!](https://www.figma.com/design/0nWVZf9TDifDz3NfcDGRVs/Barbershop-PSUnect?node-id=0-1&p=f&t=yIVJuAg5K3oTrdqS-0)
