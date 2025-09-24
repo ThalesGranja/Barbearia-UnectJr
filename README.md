@@ -124,4 +124,4 @@ Propõe-se o desenvolvimento e implementação de um sistema de gestão de barbe
 
 ### 2.3 Protótipos
 
-Apara acessar os protótipos feitos basta clicar [Aqui!](https://www.figma.com/design/0nWVZf9TDifDz3NfcDGRVs/Barbershop-PSUnect?node-id=0-1&p=f&t=yIVJuAg5K3oTrdqS-0)
+[Ver no Figma — Barbershop PSUnect](https://www.figma.com/design/0nWVZf9TDifDz3NfcDGRVs/Barbershop-PSUnect?node-id=0-1&t=yzqcT750AEefL5iJ-1)
